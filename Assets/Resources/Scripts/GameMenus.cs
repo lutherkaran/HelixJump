@@ -12,7 +12,7 @@ public class GameMenus : MonoBehaviour
     public GameObject LoadingImage;
     public Slider ProgressBar;
     public Text LoadingText;
-    AsyncOperation AsyncO;
+    AsyncOperation asyncOperation;
 
     public void Retry()
     {
@@ -25,46 +25,41 @@ public class GameMenus : MonoBehaviour
     }
     public void Loading()
     {
-        AsyncO = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        if (SceneManager.GetActiveScene().buildIndex < 3)
+            asyncOperation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        //StartCoroutine(LoadAsc(n));
+    }
+    public void LoadingPrevious()
+    {
+        if (SceneManager.GetActiveScene().buildIndex > 0)
+            asyncOperation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex - 1);
         //StartCoroutine(LoadAsc(n));
     }
     public void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.N))
         {
             Loading();
         }
-        if (AsyncO != null)
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            LoadingPrevious();
+        }
+        if (asyncOperation != null)
         {
             LoadingImage.SetActive(true);
-            ProgressBar.value = Mathf.Clamp01(AsyncO.progress / 0.9f);
-            LoadingText.text = Mathf.Round(ProgressBar.value * 100) + "%";
+            if (!asyncOperation.isDone)
+            {
+                ProgressBar.value = Mathf.Clamp01(asyncOperation.progress / 0.9f);
+                LoadingText.text = Mathf.Round(ProgressBar.value * 100) + "%";
+            }
         }
+
     }
-
-
 
     public void test(int n)
     {
         SceneManager.LoadScene(n);
     }
-
-    IEnumerator LoadAsc(int n)
-    {
-        AsyncOperation async = SceneManager.LoadSceneAsync(n);
-
-        while (!async.isDone)
-        {
-            if (!LoadingImage.activeSelf)
-            {
-                LoadingImage.SetActive(true);
-                ProgressBar.value = Mathf.Clamp01(async.progress / 0.9f);
-                LoadingText.text = Mathf.Round(ProgressBar.value * 100) + "%";
-            }
-
-            yield return null;
-        }
-
-    }
-
 }
