@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8418335831382677672}
   - component: {fileID: 8406783692809460084}
   - component: {fileID: 8397251971341201736}
-  - component: {fileID: 8469351015531203078}
   - component: {fileID: 8421086296014094630}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -83,25 +82,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469351015531203078
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419504339247515686}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094630
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -127,7 +107,6 @@ GameObject:
   - component: {fileID: 8418335831495863680}
   - component: {fileID: 8406783693736471644}
   - component: {fileID: 8397251970934277216}
-  - component: {fileID: 8469351016475000622}
   - component: {fileID: 8421086297165670802}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -199,25 +178,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469351016475000622
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419504339897580814}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297165670802
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -243,7 +203,6 @@ GameObject:
   - component: {fileID: 8418335832980873074}
   - component: {fileID: 8406783692251455150}
   - component: {fileID: 8397251969717646994}
-  - component: {fileID: 8469351015006686684}
   - component: {fileID: 8421086297637062252}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -315,25 +274,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469351015006686684
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419504340845252604}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062252
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -359,7 +299,6 @@ GameObject:
   - component: {fileID: 8418004021894499566}
   - component: {fileID: 8406911807640370828}
   - component: {fileID: 8397390749435804194}
-  - component: {fileID: 8471040670693138666}
   - component: {fileID: 8421086297637062242}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -431,25 +370,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471040670693138666
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419547842852452696}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062242
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -475,7 +395,6 @@ GameObject:
   - component: {fileID: 8418004022825352732}
   - component: {fileID: 8406911806441016446}
   - component: {fileID: 8397390750383409360}
-  - component: {fileID: 8471040670013428248}
   - component: {fileID: 8421086296802768652}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -547,25 +466,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471040670013428248
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419547844320742314}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296802768652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -591,7 +491,6 @@ GameObject:
   - component: {fileID: 8418004022443723572}
   - component: {fileID: 8406911807116376406}
   - component: {fileID: 8397390749984898552}
-  - component: {fileID: 8471040670176945968}
   - component: {fileID: 8421086296014094684}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -663,25 +562,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471040670176945968
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419547844484398722}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -707,7 +587,6 @@ GameObject:
   - component: {fileID: 8418102211161912742}
   - component: {fileID: 8406881985869266128}
   - component: {fileID: 8397280223614070780}
-  - component: {fileID: 8471061154385233722}
   - component: {fileID: 8421086296662944622}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -779,25 +658,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471061154385233722
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419553291028779608}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296662944622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -823,7 +683,6 @@ GameObject:
   - component: {fileID: 8418102210755117198}
   - component: {fileID: 8406881985756072440}
   - component: {fileID: 8397280223450421972}
-  - component: {fileID: 8471061155303862802}
   - component: {fileID: 8421086296014094680}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -895,25 +754,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471061155303862802
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419553291964049264}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094680
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -939,7 +779,6 @@ GameObject:
   - component: {fileID: 8418102212378019668}
   - component: {fileID: 8406881985206324770}
   - component: {fileID: 8397280222934293774}
-  - component: {fileID: 8471061155853022664}
   - component: {fileID: 8421086297637062254}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -1011,25 +850,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471061155853022664
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419553292513271978}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062254
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1055,7 +875,6 @@ GameObject:
   - component: {fileID: 8416483501022183316}
   - component: {fileID: 8405981140512463048}
   - component: {fileID: 8398993733335794356}
-  - component: {fileID: 8471192989110858856}
   - component: {fileID: 8421086297637062240}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -1127,25 +946,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471192989110858856
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419725532169550498}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062240
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1171,7 +971,6 @@ GameObject:
   - component: {fileID: 8416483499553869158}
   - component: {fileID: 8405981139027913274}
   - component: {fileID: 8398993731867570246}
-  - component: {fileID: 8471192990310712986}
   - component: {fileID: 8421086296519223266}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -1243,25 +1042,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471192990310712986
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419725533386115152}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296519223266
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1287,7 +1067,6 @@ GameObject:
   - component: {fileID: 8416483500497664078}
   - component: {fileID: 8405981138914729746}
   - component: {fileID: 8398993731745989998}
-  - component: {fileID: 8471192989635376050}
   - component: {fileID: 8421086296014094682}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -1359,25 +1138,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471192989635376050
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419725533759487352}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094682
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1403,7 +1163,6 @@ GameObject:
   - component: {fileID: 8418006497095656144}
   - component: {fileID: 8406580225325347000}
   - component: {fileID: 8398905621118257864}
-  - component: {fileID: 8470780335069094726}
   - component: {fileID: 8421086297637062241}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -1475,25 +1234,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470780335069094726
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419754460781571476}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062241
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1519,7 +1259,6 @@ GameObject:
   - component: {fileID: 8418006498580729890}
   - component: {fileID: 8406580224393970250}
   - component: {fileID: 8398905620439087162}
-  - component: {fileID: 8470780336285733300}
   - component: {fileID: 8421086297854242999}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -1591,25 +1330,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470780336285733300
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419754462249344870}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297854242999
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1635,7 +1355,6 @@ GameObject:
   - component: {fileID: 8418006498719081738}
   - component: {fileID: 8406580224800765794}
   - component: {fileID: 8398905620594199826}
-  - component: {fileID: 8470780335627297948}
   - component: {fileID: 8421086296014094683}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -1707,25 +1426,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470780335627297948
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419754462404471374}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094683
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1751,7 +1451,6 @@ GameObject:
   - component: {fileID: 8416474874520291160}
   - component: {fileID: 8406055933140756166}
   - component: {fileID: 8398821741541958130}
-  - component: {fileID: 8469565224959012636}
   - component: {fileID: 1402789411528009}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -1823,25 +1522,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469565224959012636
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419847335969753518}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1402789411528009
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1867,7 +1547,6 @@ GameObject:
   - component: {fileID: 8416474873996361858}
   - component: {fileID: 8406055934764179740}
   - component: {fileID: 8398821743164794408}
-  - component: {fileID: 8469565224409327814}
   - component: {fileID: 8421086295758799631}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -1939,25 +1618,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469565224409327814
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419847336485359220}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295758799631
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1983,7 +1643,6 @@ GameObject:
   - component: {fileID: 8416474873304249770}
   - component: {fileID: 8406055934609052724}
   - component: {fileID: 8398821743026443008}
-  - component: {fileID: 8469565224010800622}
   - component: {fileID: 8421086297323670904}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -2055,25 +1714,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469565224010800622
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419847336917449564}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297323670904
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2099,7 +1739,6 @@ GameObject:
   - component: {fileID: 8417990671766523266}
   - component: {fileID: 8406540771186217156}
   - component: {fileID: 8397385070872951382}
-  - component: {fileID: 8470832542058513132}
   - component: {fileID: 8421086297089295552}
   m_Layer: 0
   m_Name: helix piece
@@ -2171,25 +1810,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470832542058513132
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419892323031075092}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297089295552
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2215,7 +1835,6 @@ GameObject:
   - component: {fileID: 8417990671628187818}
   - component: {fileID: 8406540770804606444}
   - component: {fileID: 8397385071523123070}
-  - component: {fileID: 8470832542725355460}
   - component: {fileID: 8421086296014094628}
   m_Layer: 0
   m_Name: helix piece
@@ -2287,25 +1906,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470832542725355460
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419892323421223996}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094628
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2331,7 +1931,6 @@ GameObject:
   - component: {fileID: 8417990671104130928}
   - component: {fileID: 8406540772402274870}
   - component: {fileID: 8397385072072214692}
-  - component: {fileID: 8470832543274577950}
   - component: {fileID: 8421086297637062250}
   m_Layer: 0
   m_Name: helix piece
@@ -2403,25 +2002,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470832543274577950
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419892323978771430}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062250
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2573,7 +2153,6 @@ GameObject:
   - component: {fileID: 8418024164706506128}
   - component: {fileID: 8406180390876016706}
   - component: {fileID: 8397325637854936688}
-  - component: {fileID: 8470209897618313740}
   - component: {fileID: 8421086296014094685}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -2645,25 +2224,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470209897618313740
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420353786922778442}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094685
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2689,7 +2249,6 @@ GameObject:
   - component: {fileID: 8418024165348303032}
   - component: {fileID: 8406180391308084586}
   - component: {fileID: 8397325636894362456}
-  - component: {fileID: 8470209897765054244}
   - component: {fileID: 8421086296749705073}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -2761,25 +2320,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470209897765054244
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420353787874806370}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296749705073
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2805,7 +2345,6 @@ GameObject:
   - component: {fileID: 8418024166295982666}
   - component: {fileID: 8406180392507373464}
   - component: {fileID: 8397325638378863018}
-  - component: {fileID: 8470209897102579158}
   - component: {fileID: 8421086297637062243}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -2877,25 +2416,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470209897102579158
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420353788554000528}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062243
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2921,7 +2441,6 @@ GameObject:
   - component: {fileID: 8417878289477295786}
   - component: {fileID: 8406822316496881820}
   - component: {fileID: 8397518430567817748}
-  - component: {fileID: 8471162090492178860}
   - component: {fileID: 8421086297637062245}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -2993,25 +2512,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471162090492178860
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420413484823882310}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062245
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3037,7 +2537,6 @@ GameObject:
   - component: {fileID: 8417878288260721752}
   - component: {fileID: 8406822317696170606}
   - component: {fileID: 8397518429620195558}
-  - component: {fileID: 8471162091960402782}
   - component: {fileID: 8421086297507883648}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -3109,25 +2608,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471162091960402782
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420413486291654836}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297507883648
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3153,7 +2633,6 @@ GameObject:
   - component: {fileID: 8417878288952842608}
   - component: {fileID: 8406822318128107334}
   - component: {fileID: 8397518430043891150}
-  - component: {fileID: 8471162092124059254}
   - component: {fileID: 8421086296014094687}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -3225,25 +2704,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8471162092124059254
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420413486446914972}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094687
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3269,7 +2729,6 @@ GameObject:
   - component: {fileID: 8416517964165643070}
   - component: {fileID: 8406866393372346080}
   - component: {fileID: 8397356296275374508}
-  - component: {fileID: 8470197587021715312}
   - component: {fileID: 8421086297637062255}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -3341,25 +2800,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470197587021715312
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420484122357887012}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062255
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3385,7 +2825,6 @@ GameObject:
   - component: {fileID: 8416517963218012620}
   - component: {fileID: 8406866391904580626}
   - component: {fileID: 8397356295059309406}
-  - component: {fileID: 8470197588220994946}
   - component: {fileID: 8421086297562448915}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -3457,25 +2896,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470197588220994946
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420484123288781526}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297562448915
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3501,7 +2921,6 @@ GameObject:
   - component: {fileID: 8416517962534288612}
   - component: {fileID: 8406866391749443898}
   - component: {fileID: 8397356294644151926}
-  - component: {fileID: 8470197588611125418}
   - component: {fileID: 8421086296014094681}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -3573,25 +2992,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470197588611125418
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420484123947235326}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094681
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3617,7 +3017,6 @@ GameObject:
   - component: {fileID: 8418168469038293378}
   - component: {fileID: 8406819094058242584}
   - component: {fileID: 8399035199428740160}
-  - component: {fileID: 8470721617854378692}
   - component: {fileID: 8421086296014094631}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -3689,25 +3088,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470721617854378692
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420507347218902580}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094631
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3733,7 +3113,6 @@ GameObject:
   - component: {fileID: 8418168469730284714}
   - component: {fileID: 8406819095018809136}
   - component: {fileID: 8399035200070414696}
-  - component: {fileID: 8470721616902326252}
   - component: {fileID: 8421086296884541591}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -3805,25 +3184,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470721616902326252
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420507347869080348}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296884541591
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3849,7 +3209,6 @@ GameObject:
   - component: {fileID: 8418168470661654104}
   - component: {fileID: 8406819093534315970}
   - component: {fileID: 8399035201018545050}
-  - component: {fileID: 8470721616222565662}
   - component: {fileID: 8421086297637062253}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -3921,25 +3280,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8470721616222565662
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420507348816701934}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062253
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3965,7 +3305,6 @@ GameObject:
   - component: {fileID: 8416428310242336318}
   - component: {fileID: 8406042273611284780}
   - component: {fileID: 8397284470841338592}
-  - component: {fileID: 8469313604190238256}
   - component: {fileID: 8421086297637062244}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -4037,25 +3376,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469313604190238256
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420541157408440832}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297637062244
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4081,7 +3401,6 @@ GameObject:
   - component: {fileID: 8416428310905334988}
   - component: {fileID: 8406042275079009246}
   - component: {fileID: 8397284469909903378}
-  - component: {fileID: 8469313603527296194}
   - component: {fileID: 8421086297636147352}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -4153,25 +3472,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469313603527296194
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420541158339883250}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297636147352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4197,7 +3497,6 @@ GameObject:
   - component: {fileID: 8416428310766852580}
   - component: {fileID: 8406042274135344886}
   - component: {fileID: 8397284470316821818}
-  - component: {fileID: 8469313603640619498}
   - component: {fileID: 8421086296014094686}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -4269,25 +3568,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8469313603640619498
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420541158998312410}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296014094686
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4313,7 +3593,6 @@ GameObject:
   - component: {fileID: 8421086295754397282}
   - component: {fileID: 8421086295754397294}
   - component: {fileID: 8421086295754397281}
-  - component: {fileID: 8421086295754397280}
   - component: {fileID: 8421086295754397283}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -4385,25 +3664,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295754397280
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295754397285}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295754397283
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4429,7 +3689,6 @@ GameObject:
   - component: {fileID: 8421086295758224495}
   - component: {fileID: 8421086295758224490}
   - component: {fileID: 8421086295758224493}
-  - component: {fileID: 8421086295758224492}
   - component: {fileID: 1853532297}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -4501,25 +3760,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295758224492
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295758224494}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1853532297
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4545,7 +3785,6 @@ GameObject:
   - component: {fileID: 8421086295786152490}
   - component: {fileID: 8421086295786152502}
   - component: {fileID: 8421086295786152489}
-  - component: {fileID: 8421086295786152488}
   - component: {fileID: 8421086295786152491}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -4617,25 +3856,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295786152488
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295786152493}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295786152491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4661,7 +3881,6 @@ GameObject:
   - component: {fileID: 8421086295793275751}
   - component: {fileID: 8421086295793275747}
   - component: {fileID: 8421086295793275746}
-  - component: {fileID: 8421086295793275749}
   - component: {fileID: 8421086295793275748}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -4733,25 +3952,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295793275749
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295793275750}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295793275748
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4777,7 +3977,6 @@ GameObject:
   - component: {fileID: 8421086295797110452}
   - component: {fileID: 8421086295797110451}
   - component: {fileID: 8421086295797110450}
-  - component: {fileID: 8421086295797110453}
   - component: {fileID: 1812660818}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -4849,25 +4048,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295797110453
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295797110455}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1812660818
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4893,7 +4073,6 @@ GameObject:
   - component: {fileID: 8421086295800692184}
   - component: {fileID: 8421086295800692132}
   - component: {fileID: 8421086295800692135}
-  - component: {fileID: 8421086295800692134}
   - component: {fileID: 8421086295800692185}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -4965,25 +4144,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295800692134
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295800692187}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295800692185
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5009,7 +4169,6 @@ GameObject:
   - component: {fileID: 8421086295817681107}
   - component: {fileID: 8421086295817681119}
   - component: {fileID: 8421086295817681118}
-  - component: {fileID: 8421086295817681105}
   - component: {fileID: 8421086295817681104}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -5081,25 +4240,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295817681105
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295817681106}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295817681104
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5125,7 +4265,6 @@ GameObject:
   - component: {fileID: 8421086295837758939}
   - component: {fileID: 8421086295837758887}
   - component: {fileID: 8421086295837758886}
-  - component: {fileID: 8421086295837758937}
   - component: {fileID: 8421086295837758936}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -5197,25 +4336,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295837758937
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295837758938}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295837758936
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5241,7 +4361,6 @@ GameObject:
   - component: {fileID: 8421086295866206651}
   - component: {fileID: 8421086295866206599}
   - component: {fileID: 8421086295866206598}
-  - component: {fileID: 8421086295866206649}
   - component: {fileID: 8421086295866206648}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -5313,25 +4432,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295866206649
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295866206650}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295866206648
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5357,7 +4457,6 @@ GameObject:
   - component: {fileID: 8421086295884184655}
   - component: {fileID: 8421086295884184650}
   - component: {fileID: 8421086295884184653}
-  - component: {fileID: 8421086295884184652}
   - component: {fileID: 1727572137}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -5429,25 +4528,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295884184652
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295884184654}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1727572137
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5473,7 +4553,6 @@ GameObject:
   - component: {fileID: 8421086295888688796}
   - component: {fileID: 8421086295888688792}
   - component: {fileID: 8421086295888688795}
-  - component: {fileID: 8421086295888688794}
   - component: {fileID: 8421086295888688797}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -5545,25 +4624,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295888688794
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295888688799}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295888688797
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5589,7 +4649,6 @@ GameObject:
   - component: {fileID: 8421086295936090319}
   - component: {fileID: 8421086295936090315}
   - component: {fileID: 8421086295936090314}
-  - component: {fileID: 8421086295936090317}
   - component: {fileID: 8421086295936090316}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -5661,25 +4720,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295936090317
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295936090318}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295936090316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5705,7 +4745,6 @@ GameObject:
   - component: {fileID: 8421086295963439322}
   - component: {fileID: 8421086295963439270}
   - component: {fileID: 8421086295963439321}
-  - component: {fileID: 8421086295963439320}
   - component: {fileID: 8421086295963439323}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -5777,25 +4816,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295963439320
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295963439325}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295963439323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5821,7 +4841,6 @@ GameObject:
   - component: {fileID: 8421086295969622768}
   - component: {fileID: 8421086295969622780}
   - component: {fileID: 8421086295969622783}
-  - component: {fileID: 8421086295969622782}
   - component: {fileID: 8421086295969622769}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -5893,25 +4912,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295969622782
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295969622771}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295969622769
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5937,7 +4937,6 @@ GameObject:
   - component: {fileID: 8421086295986751263}
   - component: {fileID: 8421086295986751259}
   - component: {fileID: 8421086295986751258}
-  - component: {fileID: 8421086295986751261}
   - component: {fileID: 8421086295986751260}
   m_Layer: 0
   m_Name: helix piece
@@ -6009,25 +5008,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295986751261
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295986751262}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295986751260
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6053,7 +5033,6 @@ GameObject:
   - component: {fileID: 8421086295991287880}
   - component: {fileID: 8421086295991287892}
   - component: {fileID: 8421086295991287895}
-  - component: {fileID: 8421086295991287894}
   - component: {fileID: 8421086295991287881}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -6125,25 +5104,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086295991287894
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086295991287883}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086295991287881
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6169,7 +5129,6 @@ GameObject:
   - component: {fileID: 8421086296004303297}
   - component: {fileID: 8421086296004303309}
   - component: {fileID: 8421086296004303308}
-  - component: {fileID: 8421086296004303311}
   - component: {fileID: 8421086296004303310}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -6241,25 +5200,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296004303311
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296004303296}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296004303310
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6285,7 +5225,6 @@ GameObject:
   - component: {fileID: 8421086296022345336}
   - component: {fileID: 8421086296022345284}
   - component: {fileID: 8421086296022345287}
-  - component: {fileID: 8421086296022345286}
   - component: {fileID: 8421086296022345337}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -6357,25 +5296,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296022345286
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296022345339}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296022345337
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6401,7 +5321,6 @@ GameObject:
   - component: {fileID: 8421086296037702069}
   - component: {fileID: 8421086296037702065}
   - component: {fileID: 8421086296037702064}
-  - component: {fileID: 8421086296037702067}
   - component: {fileID: 8421086296037702066}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -6473,25 +5392,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296037702067
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296037702068}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296037702066
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6517,7 +5417,6 @@ GameObject:
   - component: {fileID: 8421086296078533554}
   - component: {fileID: 8421086296078533566}
   - component: {fileID: 8421086296078533553}
-  - component: {fileID: 8421086296078533552}
   - component: {fileID: 8421086296078533555}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -6589,25 +5488,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296078533552
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296078533557}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296078533555
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6633,7 +5513,6 @@ GameObject:
   - component: {fileID: 8421086296151619756}
   - component: {fileID: 8421086296151619752}
   - component: {fileID: 8421086296151619755}
-  - component: {fileID: 8421086296151619754}
   - component: {fileID: 8421086296151619757}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -6705,25 +5584,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296151619754
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296151619759}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296151619757
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6749,7 +5609,6 @@ GameObject:
   - component: {fileID: 8421086296161550653}
   - component: {fileID: 8421086296161550649}
   - component: {fileID: 8421086296161550648}
-  - component: {fileID: 8421086296161550651}
   - component: {fileID: 8421086296161550650}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -6821,25 +5680,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296161550651
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296161550652}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296161550650
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6865,7 +5705,6 @@ GameObject:
   - component: {fileID: 8421086296172407434}
   - component: {fileID: 8421086296172407446}
   - component: {fileID: 8421086296172407433}
-  - component: {fileID: 8421086296172407432}
   - component: {fileID: 8421086296172407435}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -6937,25 +5776,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296172407432
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296172407437}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296172407435
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6981,7 +5801,6 @@ GameObject:
   - component: {fileID: 8421086296185881409}
   - component: {fileID: 8421086296185881421}
   - component: {fileID: 8421086296185881420}
-  - component: {fileID: 8421086296185881423}
   - component: {fileID: 8421086296185881422}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -7053,25 +5872,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296185881423
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296185881408}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296185881422
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7097,7 +5897,6 @@ GameObject:
   - component: {fileID: 8421086296196018675}
   - component: {fileID: 8421086296196018687}
   - component: {fileID: 8421086296196018686}
-  - component: {fileID: 8421086296196018673}
   - component: {fileID: 8421086296196018672}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -7169,25 +5968,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296196018673
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296196018674}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296196018672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7213,7 +5993,6 @@ GameObject:
   - component: {fileID: 8421086296226826634}
   - component: {fileID: 8421086296226826646}
   - component: {fileID: 8421086296226826633}
-  - component: {fileID: 8421086296226826632}
   - component: {fileID: 8421086296226826635}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -7285,25 +6064,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296226826632
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296226826637}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296226826635
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7329,7 +6089,6 @@ GameObject:
   - component: {fileID: 8421086296268462992}
   - component: {fileID: 8421086296268463004}
   - component: {fileID: 8421086296268463007}
-  - component: {fileID: 8421086296268463006}
   - component: {fileID: 8421086296268462993}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -7401,25 +6160,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296268463006
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296268462995}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296268462993
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7445,7 +6185,6 @@ GameObject:
   - component: {fileID: 8421086296279558510}
   - component: {fileID: 8421086296279558506}
   - component: {fileID: 8421086296279558509}
-  - component: {fileID: 8421086296279558508}
   - component: {fileID: 8421086296279558511}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -7517,25 +6256,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296279558508
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296279558497}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296279558511
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7561,7 +6281,6 @@ GameObject:
   - component: {fileID: 8421086296290056392}
   - component: {fileID: 8421086296290056404}
   - component: {fileID: 8421086296290056407}
-  - component: {fileID: 8421086296290056406}
   - component: {fileID: 8421086296290056393}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -7633,25 +6352,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296290056406
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296290056395}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296290056393
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7677,7 +6377,6 @@ GameObject:
   - component: {fileID: 8421086296296023353}
   - component: {fileID: 8421086296296023301}
   - component: {fileID: 8421086296296023300}
-  - component: {fileID: 8421086296296023303}
   - component: {fileID: 8421086296296023302}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -7749,25 +6448,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296296023303
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296296023352}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296296023302
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7793,7 +6473,6 @@ GameObject:
   - component: {fileID: 8421086296296827278}
   - component: {fileID: 8421086296296827274}
   - component: {fileID: 8421086296296827277}
-  - component: {fileID: 8421086296296827276}
   - component: {fileID: 8421086296296827279}
   m_Layer: 0
   m_Name: helix piece
@@ -7865,25 +6544,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296296827276
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296296827265}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296296827279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7909,7 +6569,6 @@ GameObject:
   - component: {fileID: 8421086296321853863}
   - component: {fileID: 8421086296321853858}
   - component: {fileID: 8421086296321853861}
-  - component: {fileID: 8421086296321853860}
   - component: {fileID: 1287789889}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -7981,25 +6640,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296321853860
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296321853862}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1287789889
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8025,7 +6665,6 @@ GameObject:
   - component: {fileID: 8421086296333113770}
   - component: {fileID: 8421086296333113782}
   - component: {fileID: 8421086296333113769}
-  - component: {fileID: 8421086296333113768}
   - component: {fileID: 8421086296333113771}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -8097,25 +6736,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296333113768
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296333113773}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296333113771
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8172,10 +6792,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8421086296386000342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24143bd51d1cb44429ef58fab5dbea90, type: 3}
+  m_Script: {fileID: 11500000, guid: 017f0ae347f64fb458279dc41ee60e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angle: 1
 --- !u!65 &8421086296386000343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8200,7 +6819,6 @@ GameObject:
   - component: {fileID: 8421086296392281455}
   - component: {fileID: 8421086296392281451}
   - component: {fileID: 8421086296392281450}
-  - component: {fileID: 8421086296392281453}
   - component: {fileID: 8421086296392281452}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -8272,25 +6890,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296392281453
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296392281454}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296392281452
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8316,7 +6915,6 @@ GameObject:
   - component: {fileID: 8421086296411548386}
   - component: {fileID: 8421086296411548398}
   - component: {fileID: 8421086296411548385}
-  - component: {fileID: 8421086296411548384}
   - component: {fileID: 8421086296411548387}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -8388,25 +6986,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296411548384
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296411548389}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296411548387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8432,7 +7011,6 @@ GameObject:
   - component: {fileID: 8421086296449769856}
   - component: {fileID: 8421086296449769868}
   - component: {fileID: 8421086296449769871}
-  - component: {fileID: 8421086296449769870}
   - component: {fileID: 8421086296449769857}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -8504,25 +7082,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296449769870
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296449769859}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296449769857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8590,7 +7149,6 @@ GameObject:
   - component: {fileID: 8421086296461633235}
   - component: {fileID: 8421086296461633247}
   - component: {fileID: 8421086296461633246}
-  - component: {fileID: 8421086296461633233}
   - component: {fileID: 8421086296461633232}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -8662,25 +7220,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296461633233
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296461633234}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296461633232
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8748,7 +7287,6 @@ GameObject:
   - component: {fileID: 8421086296520531035}
   - component: {fileID: 8421086296520530983}
   - component: {fileID: 8421086296520530982}
-  - component: {fileID: 8421086296520531033}
   - component: {fileID: 8421086296520531032}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -8820,25 +7358,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296520531033
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296520531034}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296520531032
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8864,7 +7383,6 @@ GameObject:
   - component: {fileID: 8421086296537345669}
   - component: {fileID: 8421086296537345665}
   - component: {fileID: 8421086296537345664}
-  - component: {fileID: 8421086296537345667}
   - component: {fileID: 8421086296537345666}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -8936,25 +7454,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296537345667
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296537345668}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296537345666
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8980,7 +7479,6 @@ GameObject:
   - component: {fileID: 8421086296568732106}
   - component: {fileID: 8421086296568732118}
   - component: {fileID: 8421086296568732105}
-  - component: {fileID: 8421086296568732104}
   - component: {fileID: 8421086296568732107}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -9052,25 +7550,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296568732104
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296568732109}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296568732107
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9096,7 +7575,6 @@ GameObject:
   - component: {fileID: 8421086296574635220}
   - component: {fileID: 8421086296574635216}
   - component: {fileID: 8421086296574635219}
-  - component: {fileID: 8421086296574635218}
   - component: {fileID: 8421086296574635221}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -9168,25 +7646,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296574635218
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296574635223}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296574635221
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9212,7 +7671,6 @@ GameObject:
   - component: {fileID: 8421086296575358958}
   - component: {fileID: 8421086296575358954}
   - component: {fileID: 8421086296575358957}
-  - component: {fileID: 8421086296575358956}
   - component: {fileID: 8421086296575358959}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -9284,25 +7742,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296575358956
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296575358945}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296575358959
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9328,7 +7767,6 @@ GameObject:
   - component: {fileID: 8421086296593289365}
   - component: {fileID: 8421086296593289361}
   - component: {fileID: 8421086296593289360}
-  - component: {fileID: 8421086296593289363}
   - component: {fileID: 8421086296593289362}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -9400,25 +7838,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296593289363
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296593289364}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296593289362
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9444,7 +7863,6 @@ GameObject:
   - component: {fileID: 8421086296602710094}
   - component: {fileID: 8421086296602710090}
   - component: {fileID: 8421086296602710093}
-  - component: {fileID: 8421086296602710092}
   - component: {fileID: 8421086296602710095}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -9516,25 +7934,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296602710092
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296602710081}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296602710095
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9560,7 +7959,6 @@ GameObject:
   - component: {fileID: 8421086296621525186}
   - component: {fileID: 8421086296621525198}
   - component: {fileID: 8421086296621525185}
-  - component: {fileID: 8421086296621525184}
   - component: {fileID: 8421086296621525187}
   m_Layer: 0
   m_Name: helix piece
@@ -9632,25 +8030,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296621525184
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296621525189}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296621525187
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9676,7 +8055,6 @@ GameObject:
   - component: {fileID: 8421086296633475568}
   - component: {fileID: 8421086296633475580}
   - component: {fileID: 8421086296633475583}
-  - component: {fileID: 8421086296633475582}
   - component: {fileID: 8421086296633475569}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -9748,25 +8126,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296633475582
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296633475571}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296633475569
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9822,7 +8181,6 @@ GameObject:
   - component: {fileID: 8421086296662866993}
   - component: {fileID: 8421086296662867005}
   - component: {fileID: 8421086296662867004}
-  - component: {fileID: 8421086296662867007}
   - component: {fileID: 8421086296662867006}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -9894,25 +8252,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296662867007
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296662866992}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296662867006
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9938,7 +8277,6 @@ GameObject:
   - component: {fileID: 8421086296666251581}
   - component: {fileID: 8421086296666251577}
   - component: {fileID: 8421086296666251576}
-  - component: {fileID: 8421086296666251579}
   - component: {fileID: 8421086296666251578}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -10010,25 +8348,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296666251579
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296666251580}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296666251578
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10054,7 +8373,6 @@ GameObject:
   - component: {fileID: 8421086296707192080}
   - component: {fileID: 8421086296707192095}
   - component: {fileID: 8421086296707192094}
-  - component: {fileID: 8421086296707192081}
   - component: {fileID: 1439351286}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -10126,25 +8444,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296707192081
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296707192083}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1439351286
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10170,7 +8469,6 @@ GameObject:
   - component: {fileID: 8421086296711415728}
   - component: {fileID: 8421086296711415740}
   - component: {fileID: 8421086296711415743}
-  - component: {fileID: 8421086296711415742}
   - component: {fileID: 8421086296711415729}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -10242,25 +8540,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296711415742
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296711415731}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296711415729
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10286,7 +8565,6 @@ GameObject:
   - component: {fileID: 8421086296754640322}
   - component: {fileID: 8421086296754640334}
   - component: {fileID: 8421086296754640321}
-  - component: {fileID: 8421086296754640320}
   - component: {fileID: 8421086296754640323}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -10358,25 +8636,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296754640320
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296754640325}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296754640323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10402,7 +8661,6 @@ GameObject:
   - component: {fileID: 8421086296760312954}
   - component: {fileID: 8421086296760312902}
   - component: {fileID: 8421086296760312953}
-  - component: {fileID: 8421086296760312952}
   - component: {fileID: 8421086296760312955}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -10474,25 +8732,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296760312952
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296760312957}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296760312955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10518,7 +8757,6 @@ GameObject:
   - component: {fileID: 8421086296848260606}
   - component: {fileID: 8421086296848260602}
   - component: {fileID: 8421086296848260605}
-  - component: {fileID: 8421086296848260604}
   - component: {fileID: 8421086296848260607}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -10590,25 +8828,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296848260604
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296848260593}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296848260607
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10676,7 +8895,6 @@ GameObject:
   - component: {fileID: 8421086296869583730}
   - component: {fileID: 8421086296869583742}
   - component: {fileID: 8421086296869583729}
-  - component: {fileID: 8421086296869583728}
   - component: {fileID: 8421086296869583731}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -10748,25 +8966,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296869583728
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296869583733}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296869583731
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10792,7 +8991,6 @@ GameObject:
   - component: {fileID: 8421086296876582679}
   - component: {fileID: 8421086296876582675}
   - component: {fileID: 8421086296876582674}
-  - component: {fileID: 8421086296876582677}
   - component: {fileID: 8421086296876582676}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -10864,25 +9062,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296876582677
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296876582678}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296876582676
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10950,7 +9129,6 @@ GameObject:
   - component: {fileID: 8421086296932408529}
   - component: {fileID: 8421086296932408541}
   - component: {fileID: 8421086296932408540}
-  - component: {fileID: 8421086296932408543}
   - component: {fileID: 8421086296932408542}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -11022,25 +9200,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296932408543
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296932408528}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296932408542
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11066,7 +9225,6 @@ GameObject:
   - component: {fileID: 8421086296991617358}
   - component: {fileID: 8421086296991617357}
   - component: {fileID: 8421086296991617356}
-  - component: {fileID: 8421086296991617359}
   - component: {fileID: 620152232}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -11138,25 +9296,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296991617359
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296991617345}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &620152232
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11182,7 +9321,6 @@ GameObject:
   - component: {fileID: 8421086296999408875}
   - component: {fileID: 8421086296999408887}
   - component: {fileID: 8421086296999408886}
-  - component: {fileID: 8421086296999408873}
   - component: {fileID: 8421086296999408872}
   m_Layer: 0
   m_Name: helix piece
@@ -11254,25 +9392,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086296999408873
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086296999408874}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086296999408872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11340,7 +9459,6 @@ GameObject:
   - component: {fileID: 8421086297052443839}
   - component: {fileID: 8421086297052443835}
   - component: {fileID: 8421086297052443834}
-  - component: {fileID: 8421086297052443837}
   - component: {fileID: 8421086297052443836}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -11412,25 +9530,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297052443837
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297052443838}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297052443836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11456,7 +9555,6 @@ GameObject:
   - component: {fileID: 8421086297056879918}
   - component: {fileID: 8421086297056879914}
   - component: {fileID: 8421086297056879917}
-  - component: {fileID: 8421086297056879916}
   - component: {fileID: 8421086297056879919}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -11528,25 +9626,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297056879916
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297056879905}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297056879919
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11572,7 +9651,6 @@ GameObject:
   - component: {fileID: 8421086297057263524}
   - component: {fileID: 8421086297057263520}
   - component: {fileID: 8421086297057263523}
-  - component: {fileID: 8421086297057263522}
   - component: {fileID: 8421086297057263525}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -11644,25 +9722,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297057263522
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297057263527}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297057263525
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11730,7 +9789,6 @@ GameObject:
   - component: {fileID: 8421086297126859783}
   - component: {fileID: 8421086297126859779}
   - component: {fileID: 8421086297126859778}
-  - component: {fileID: 8421086297126859781}
   - component: {fileID: 8421086297126859780}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -11802,25 +9860,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297126859781
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297126859782}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297126859780
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11846,7 +9885,6 @@ GameObject:
   - component: {fileID: 8421086297204872354}
   - component: {fileID: 8421086297204872353}
   - component: {fileID: 8421086297204872352}
-  - component: {fileID: 8421086297204872355}
   - component: {fileID: 941670468}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -11918,25 +9956,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297204872355
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297204872357}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &941670468
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11962,7 +9981,6 @@ GameObject:
   - component: {fileID: 8421086297208657998}
   - component: {fileID: 8421086297208657994}
   - component: {fileID: 8421086297208657997}
-  - component: {fileID: 8421086297208657996}
   - component: {fileID: 8421086297208657999}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -12034,25 +10052,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297208657996
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297208657985}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297208657999
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12078,7 +10077,6 @@ GameObject:
   - component: {fileID: 8421086297282615120}
   - component: {fileID: 8421086297282615132}
   - component: {fileID: 8421086297282615135}
-  - component: {fileID: 8421086297282615134}
   - component: {fileID: 8421086297282615121}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -12150,25 +10148,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297282615134
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297282615123}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297282615121
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12194,7 +10173,6 @@ GameObject:
   - component: {fileID: 8421086297283862090}
   - component: {fileID: 8421086297283862102}
   - component: {fileID: 8421086297283862089}
-  - component: {fileID: 8421086297283862088}
   - component: {fileID: 8421086297283862091}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -12266,25 +10244,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297283862088
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297283862093}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297283862091
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12310,7 +10269,6 @@ GameObject:
   - component: {fileID: 8421086297311362040}
   - component: {fileID: 8421086297311361988}
   - component: {fileID: 8421086297311361991}
-  - component: {fileID: 8421086297311361990}
   - component: {fileID: 8421086297311362041}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -12382,25 +10340,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297311361990
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297311362043}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297311362041
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12426,7 +10365,6 @@ GameObject:
   - component: {fileID: 8421086297327030365}
   - component: {fileID: 8421086297327030361}
   - component: {fileID: 8421086297327030360}
-  - component: {fileID: 8421086297327030363}
   - component: {fileID: 8421086297327030362}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -12498,25 +10436,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297327030363
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297327030364}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297327030362
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12542,7 +10461,6 @@ GameObject:
   - component: {fileID: 8421086297351006055}
   - component: {fileID: 8421086297351006051}
   - component: {fileID: 8421086297351006050}
-  - component: {fileID: 8421086297351006053}
   - component: {fileID: 8421086297351006052}
   m_Layer: 0
   m_Name: helix piece
@@ -12614,25 +10532,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297351006053
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297351006054}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297351006052
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12658,7 +10557,6 @@ GameObject:
   - component: {fileID: 8421086297399327346}
   - component: {fileID: 8421086297399327358}
   - component: {fileID: 8421086297399327345}
-  - component: {fileID: 8421086297399327344}
   - component: {fileID: 8421086297399327347}
   m_Layer: 0
   m_Name: helix piece (3)
@@ -12730,25 +10628,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297399327344
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297399327349}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297399327347
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12774,7 +10653,6 @@ GameObject:
   - component: {fileID: 8421086297459852555}
   - component: {fileID: 8421086297459852567}
   - component: {fileID: 8421086297459852566}
-  - component: {fileID: 8421086297459852553}
   - component: {fileID: 8421086297459852552}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -12846,25 +10724,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297459852553
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297459852554}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297459852552
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12890,7 +10749,6 @@ GameObject:
   - component: {fileID: 8421086297466580676}
   - component: {fileID: 8421086297466580675}
   - component: {fileID: 8421086297466580674}
-  - component: {fileID: 8421086297466580677}
   - component: {fileID: 143211042}
   m_Layer: 0
   m_Name: helix piece (6)
@@ -12962,25 +10820,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297466580677
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297466580679}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &143211042
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13006,7 +10845,6 @@ GameObject:
   - component: {fileID: 8421086297501023869}
   - component: {fileID: 8421086297501023865}
   - component: {fileID: 8421086297501023864}
-  - component: {fileID: 8421086297501023867}
   - component: {fileID: 8421086297501023866}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -13078,25 +10916,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297501023867
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297501023868}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297501023866
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13122,7 +10941,6 @@ GameObject:
   - component: {fileID: 8421086297535956056}
   - component: {fileID: 8421086297535956004}
   - component: {fileID: 8421086297535956007}
-  - component: {fileID: 8421086297535956006}
   - component: {fileID: 8421086297535956057}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -13194,25 +11012,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297535956006
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297535956059}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297535956057
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13238,7 +11037,6 @@ GameObject:
   - component: {fileID: 8421086297538124899}
   - component: {fileID: 8421086297538124911}
   - component: {fileID: 8421086297538124910}
-  - component: {fileID: 8421086297538124897}
   - component: {fileID: 8421086297538124896}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -13310,25 +11108,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297538124897
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297538124898}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297538124896
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13354,7 +11133,6 @@ GameObject:
   - component: {fileID: 8421086297573731189}
   - component: {fileID: 8421086297573731185}
   - component: {fileID: 8421086297573731184}
-  - component: {fileID: 8421086297573731187}
   - component: {fileID: 8421086297573731186}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -13426,25 +11204,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297573731187
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297573731188}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297573731186
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13470,7 +11229,6 @@ GameObject:
   - component: {fileID: 8421086297577308996}
   - component: {fileID: 8421086297577308992}
   - component: {fileID: 8421086297577308995}
-  - component: {fileID: 8421086297577308994}
   - component: {fileID: 8421086297577308997}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -13542,25 +11300,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297577308994
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297577308999}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297577308997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13586,7 +11325,6 @@ GameObject:
   - component: {fileID: 8421086297608327392}
   - component: {fileID: 8421086297608327404}
   - component: {fileID: 8421086297608327407}
-  - component: {fileID: 8421086297608327406}
   - component: {fileID: 8421086297608327393}
   m_Layer: 0
   m_Name: helix piece
@@ -13658,25 +11396,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297608327406
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297608327395}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297608327393
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13702,7 +11421,6 @@ GameObject:
   - component: {fileID: 8421086297624077606}
   - component: {fileID: 8421086297624077602}
   - component: {fileID: 8421086297624077605}
-  - component: {fileID: 8421086297624077604}
   - component: {fileID: 8421086297624077607}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -13774,25 +11492,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297624077604
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297624077657}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297624077607
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13818,7 +11517,6 @@ GameObject:
   - component: {fileID: 8421086297651967285}
   - component: {fileID: 8421086297651967281}
   - component: {fileID: 8421086297651967280}
-  - component: {fileID: 8421086297651967283}
   - component: {fileID: 8421086297651967282}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -13890,25 +11588,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297651967283
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297651967284}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297651967282
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13934,7 +11613,6 @@ GameObject:
   - component: {fileID: 8421086297652741178}
   - component: {fileID: 8421086297652741126}
   - component: {fileID: 8421086297652741177}
-  - component: {fileID: 8421086297652741176}
   - component: {fileID: 8421086297652741179}
   m_Layer: 0
   m_Name: helix piece (5)
@@ -14006,25 +11684,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297652741176
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297652741181}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297652741179
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14050,7 +11709,6 @@ GameObject:
   - component: {fileID: 8421086297723795207}
   - component: {fileID: 8421086297723795203}
   - component: {fileID: 8421086297723795202}
-  - component: {fileID: 8421086297723795205}
   - component: {fileID: 8421086297723795204}
   m_Layer: 0
   m_Name: helix piece (11)
@@ -14122,25 +11780,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297723795205
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297723795206}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297723795204
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14166,7 +11805,6 @@ GameObject:
   - component: {fileID: 8421086297725167035}
   - component: {fileID: 8421086297725166983}
   - component: {fileID: 8421086297725166982}
-  - component: {fileID: 8421086297725167033}
   - component: {fileID: 8421086297725167032}
   m_Layer: 0
   m_Name: helix piece (4)
@@ -14238,25 +11876,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297725167033
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297725167034}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297725167032
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14282,7 +11901,6 @@ GameObject:
   - component: {fileID: 8421086297733658223}
   - component: {fileID: 8421086297733658219}
   - component: {fileID: 8421086297733658218}
-  - component: {fileID: 8421086297733658221}
   - component: {fileID: 8421086297733658220}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -14354,25 +11972,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297733658221
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297733658222}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297733658220
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14440,7 +12039,6 @@ GameObject:
   - component: {fileID: 8421086297748413899}
   - component: {fileID: 8421086297748413911}
   - component: {fileID: 8421086297748413910}
-  - component: {fileID: 8421086297748413897}
   - component: {fileID: 8421086297748413896}
   m_Layer: 0
   m_Name: helix piece (8)
@@ -14512,25 +12110,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297748413897
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297748413898}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297748413896
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14556,7 +12135,6 @@ GameObject:
   - component: {fileID: 8421086297752127879}
   - component: {fileID: 8421086297752127875}
   - component: {fileID: 8421086297752127874}
-  - component: {fileID: 8421086297752127877}
   - component: {fileID: 8421086297752127876}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -14628,25 +12206,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297752127877
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297752127878}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297752127876
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14672,7 +12231,6 @@ GameObject:
   - component: {fileID: 8421086297758492423}
   - component: {fileID: 8421086297758492419}
   - component: {fileID: 8421086297758492418}
-  - component: {fileID: 8421086297758492421}
   - component: {fileID: 8421086297758492420}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -14744,25 +12302,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297758492421
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297758492422}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297758492420
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14896,7 +12435,6 @@ GameObject:
   - component: {fileID: 8421086297786512795}
   - component: {fileID: 8421086297786512743}
   - component: {fileID: 8421086297786512742}
-  - component: {fileID: 8421086297786512793}
   - component: {fileID: 8421086297786512792}
   m_Layer: 0
   m_Name: helix piece (2)
@@ -14968,25 +12506,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297786512793
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297786512794}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297786512792
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15054,7 +12573,6 @@ GameObject:
   - component: {fileID: 8421086297788756550}
   - component: {fileID: 8421086297788756546}
   - component: {fileID: 8421086297788756549}
-  - component: {fileID: 8421086297788756548}
   - component: {fileID: 8421086297788756551}
   m_Layer: 0
   m_Name: helix piece (1)
@@ -15126,25 +12644,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297788756548
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297788756601}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297788756551
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15170,7 +12669,6 @@ GameObject:
   - component: {fileID: 8421086297796803418}
   - component: {fileID: 8421086297796803366}
   - component: {fileID: 8421086297796803417}
-  - component: {fileID: 8421086297796803416}
   - component: {fileID: 8421086297796803419}
   m_Layer: 0
   m_Name: helix piece
@@ -15242,25 +12740,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297796803416
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297796803421}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297796803419
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15286,7 +12765,6 @@ GameObject:
   - component: {fileID: 8421086297828907680}
   - component: {fileID: 8421086297828907692}
   - component: {fileID: 8421086297828907695}
-  - component: {fileID: 8421086297828907694}
   - component: {fileID: 8421086297828907681}
   m_Layer: 0
   m_Name: helix piece (7)
@@ -15358,25 +12836,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297828907694
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297828907683}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297828907681
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15402,7 +12861,6 @@ GameObject:
   - component: {fileID: 8421086297830547840}
   - component: {fileID: 8421086297830547852}
   - component: {fileID: 8421086297830547855}
-  - component: {fileID: 8421086297830547854}
   - component: {fileID: 8421086297830547841}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -15474,25 +12932,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297830547854
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297830547843}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297830547841
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15518,7 +12957,6 @@ GameObject:
   - component: {fileID: 8421086297867954047}
   - component: {fileID: 8421086297867954043}
   - component: {fileID: 8421086297867954042}
-  - component: {fileID: 8421086297867954045}
   - component: {fileID: 8421086297867954044}
   m_Layer: 0
   m_Name: helix piece
@@ -15590,25 +13028,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297867954045
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297867954046}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297867954044
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15634,7 +13053,6 @@ GameObject:
   - component: {fileID: 8421086297868040635}
   - component: {fileID: 8421086297868040583}
   - component: {fileID: 8421086297868040582}
-  - component: {fileID: 8421086297868040633}
   - component: {fileID: 8421086297868040632}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -15706,25 +13124,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297868040633
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297868040634}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297868040632
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15750,7 +13149,6 @@ GameObject:
   - component: {fileID: 8421086297878210662}
   - component: {fileID: 8421086297878210658}
   - component: {fileID: 8421086297878210661}
-  - component: {fileID: 8421086297878210660}
   - component: {fileID: 8421086297878210663}
   m_Layer: 0
   m_Name: helix piece (10)
@@ -15822,25 +13220,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297878210660
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297878210713}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297878210663
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15866,7 +13245,6 @@ GameObject:
   - component: {fileID: 8421086297878679483}
   - component: {fileID: 8421086297878679431}
   - component: {fileID: 8421086297878679430}
-  - component: {fileID: 8421086297878679481}
   - component: {fileID: 8421086297878679480}
   m_Layer: 0
   m_Name: helix piece (9)
@@ -15938,25 +13316,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8421086297878679481
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421086297878679482}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d637654b208b6074a8f877a9ec3fdb72, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &8421086297878679480
 MeshCollider:
   m_ObjectHideFlags: 0

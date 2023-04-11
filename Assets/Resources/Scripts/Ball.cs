@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
+using System;
+using UnityEngine.EventSystems;
+using UnityEditor.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
@@ -11,70 +14,65 @@ public class Ball : MonoBehaviour
     bool bAddForce = false;
     GameObject SplashPrefab;
     int score;
-    public Text scoreText;
-    public GameObject GameoverMenu;
+    public Vector3 initialPosition;
     public Transform SplashParent;
-    public bool bPlayer = false;
+    public bool bAlive = false;
 
-    public static Ball Instance { get; private set; }
+    public static event Action<bool> ballDied;
+
     private void Awake()
     {
-        // If there is an instance, and it's not me, delete myself.
-
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
+        SplashPrefab = Resources.Load<GameObject>("Prefabs/Splash");
     }
-
     private void Start()
     {
-        SplashPrefab = Resources.Load<GameObject>("Prefabs/Splash");
-        bAddForce = true;
-        bPlayer = true;
+        initialPosition = transform.position;
+        ResetGame();
+        GameSingleton.Instance.AudioManager.ThemeMusic("ThemeMusic");
     }
+
+    public void ResetGame()
+    {
+        this.transform.position = initialPosition;
+        bAddForce = bAlive = true;
+        score = 0;
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
-        if (bPlayer)
+        if (bAlive)
         {
+            GameSingleton.Instance.AudioManager.PlaySFX("Bounce");
             GameObject.Instantiate(SplashPrefab, this.transform.position - new Vector3(0f, +0.19f, 0), Quaternion.AngleAxis(90, Vector3.right), SplashParent);
-
-            if (collision.gameObject.tag == "Gameover")
-            {
-                bPlayer = false;
-                bAddForce = false;
-                force = 0;
-                GameoverMenu.SetActive(true);
-            }
-            if (bAddForce)
-            {
-                this.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 1f, 0f) * Time.deltaTime * force);
-                bAddForce = false;
-                Invoke("Fix", 0.5f);
-            }
-
+        }
+        if (collision.gameObject.tag == "Gameover")
+        {
+            GameSingleton.Instance.AudioManager.PlaySFX("GameOver");
+            bAlive = false;
+            bAddForce = false;
+            ballDied?.Invoke(bAlive);
         }
 
-
+        if (bAddForce)
+        {
+            this.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 1f, 0f) * Time.deltaTime * force);
+            bAddForce = false;
+            Invoke("Fix", 0.5f);
+        }
     }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (bPlayer)
+        if (other.gameObject.tag == "Score")
         {
-            if (other.gameObject.tag == "Score")
-            {
-                score++;
-                scoreText.text = "Score: " + score;
-            }
+            score++;
+            GameSingleton.Instance.GameMenus.ScoreText.text = "Score: " + score;
         }
     }
+
     private void Update()
     {
-        if (bPlayer)
+        if (bAlive)
         {
             if (transform.position.y + offset < Camera.main.transform.position.y)
             {
@@ -84,6 +82,7 @@ public class Ball : MonoBehaviour
             }
         }
     }
+
     public void Fix()
     {
         bAddForce = true;

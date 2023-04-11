@@ -6,7 +6,7 @@ public class DestroySplash : MonoBehaviour
 {
     void Start()
     {
-        if (Ball.Instance.bPlayer)
+        if (GameSingleton.Instance.ball.bAlive)
         {
             GameObject.Destroy(gameObject, 2f);
         }
