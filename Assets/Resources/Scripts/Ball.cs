@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using System;
 using UnityEngine.EventSystems;
-using UnityEditor.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
@@ -42,8 +41,8 @@ public class Ball : MonoBehaviour
     {
         if (bAlive)
         {
-            GameSingleton.Instance.AudioManager.PlaySFX("Bounce");
-            GameObject.Instantiate(SplashPrefab, this.transform.position - new Vector3(0f, +0.19f, 0), Quaternion.AngleAxis(90, Vector3.right), SplashParent);
+            GameSingleton.Instance.AudioManager.PlaySFX("BallBounce");
+            GameObject.Instantiate(SplashPrefab, this.transform.position - new Vector3(0f, +0.18f, 0), Quaternion.AngleAxis(90, Vector3.right), SplashParent);
         }
         if (collision.gameObject.tag == "Gameover")
         {
@@ -57,7 +56,7 @@ public class Ball : MonoBehaviour
         {
             this.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 1f, 0f) * Time.deltaTime * force);
             bAddForce = false;
-            Invoke("Fix", 0.5f);
+            Invoke("RestoringForce", 0.5f);
         }
     }
 
@@ -74,16 +73,21 @@ public class Ball : MonoBehaviour
     {
         if (bAlive)
         {
-            if (transform.position.y + offset < Camera.main.transform.position.y)
-            {
-                Vector3 pos = Camera.main.transform.position;
-                pos.y = this.transform.position.y + offset;
-                Camera.main.transform.position = pos;
-            }
+            MoveCameraDownward();
         }
     }
 
-    public void Fix()
+    private void MoveCameraDownward()
+    {
+        if (transform.position.y + offset < Camera.main.transform.position.y)
+        {
+            Vector3 pos = Camera.main.transform.position;
+            pos.y = this.transform.position.y + offset;
+            Camera.main.transform.position = pos;
+        }
+    }
+
+    public void RestoringForce()
     {
         bAddForce = true;
     }
