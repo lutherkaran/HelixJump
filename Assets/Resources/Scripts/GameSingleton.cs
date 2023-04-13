@@ -9,6 +9,7 @@ public class GameSingleton : MonoBehaviour
     public Ball ball { get; private set; }
     public GameMenus GameMenus { get; private set; }
     public AudioManager AudioManager { get; private set; }
+    public Disc disc { get; private set; }
 
     private void Awake()
     {
@@ -23,6 +24,7 @@ public class GameSingleton : MonoBehaviour
             Instance = this;
             GameMenus = this.GetComponentInChildren<GameMenus>();
             ball = this.GetComponentInChildren<Ball>();
+            disc = this.GetComponentInChildren<Disc>();
             Input = this.GetComponentInChildren<Input>();
             AudioManager = this.GetComponentInChildren<AudioManager>();
         }
