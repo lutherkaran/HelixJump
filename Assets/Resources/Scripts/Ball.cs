@@ -17,7 +17,9 @@ public class Ball : MonoBehaviour
     public Transform SplashParent;
     public bool bAlive = false;
 
+    public float splashDistance = 0.1f;
     public static event Action<bool> ballDied;
+    public bool hasBounced = false;
 
     private void Awake()
     {
@@ -39,24 +41,27 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (bAlive)
+        if (bAlive && !hasBounced)
         {
             GameSingleton.Instance.AudioManager.PlaySFX("BallBounce");
-            GameObject.Instantiate(SplashPrefab, this.transform.position - new Vector3(0f, +0.18f, 0), Quaternion.AngleAxis(90, Vector3.right), SplashParent);
-        }
-        if (collision.gameObject.tag == "Gameover")
-        {
-            GameSingleton.Instance.AudioManager.PlaySFX("GameOver");
-            bAlive = false;
-            bAddForce = false;
-            ballDied?.Invoke(bAlive);
-        }
+            Vector3 splashPosition = collision.contacts[0].point + collision.contacts[0].normal.normalized *splashDistance;
+            splashPosition.y -= 0.09f;
+            GameObject.Instantiate(SplashPrefab, splashPosition, Quaternion.LookRotation(collision.contacts[0].normal), SplashParent);
 
-        if (bAddForce)
-        {
-            this.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 1f, 0f) * Time.deltaTime * force);
-            bAddForce = false;
-            Invoke("RestoringForce", 0.5f);
+            if (collision.gameObject.tag == "Gameover")
+            {
+                GameSingleton.Instance.AudioManager.PlaySFX("GameOver");
+                bAlive = false;
+                bAddForce = false;
+                ballDied?.Invoke(bAlive);
+            }
+            if (bAddForce)
+            {
+                this.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 1f, 0f) * Time.deltaTime * force);
+                bAddForce = false;
+                Invoke("RestoringForce", 0.5f);
+            }
+            hasBounced = true;
         }
     }
 
@@ -89,6 +94,7 @@ public class Ball : MonoBehaviour
 
     public void RestoringForce()
     {
+        hasBounced = false;
         bAddForce = true;
     }
 }

@@ -21,7 +21,7 @@ public class Input : MonoBehaviour
         if (bInput)
         {
             float x = UnityEngine.Input.GetAxis("Mouse X");
-            transform.GetChild(0).transform.RotateAround(transform.position, new Vector3(0f, 1f, 0f) * Time.deltaTime * -1f * x, angle);
+            this.transform.GetChild(0).transform.RotateAround(this.transform.position, new Vector3(0f, 1f, 0f) * Time.deltaTime * -1f * x, angle);
         }
     }
     private void OnDisable()
