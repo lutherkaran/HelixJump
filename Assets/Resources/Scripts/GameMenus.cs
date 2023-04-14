@@ -11,16 +11,21 @@ public class GameMenus : MonoBehaviour
     public GameObject LoadingImage;
 
     public GameObject GameOverMenu;
+    public GameObject LevelCompletedMenu;
+    public GameObject GameWinMenu;
     public Text ScoreText;
 
     public Slider ProgressBar;
     public Text LoadingText;
     AsyncOperation asyncOperation;
 
+    private bool bGameWin = false;
     private void OnEnable()
     {
         Ball.ballDied += PlayerDied;
+        Ball.GameWin += NextLevel;
     }
+
     public void PlayerDied(bool bAlive)
     {
         if (!bAlive)
@@ -29,13 +34,35 @@ public class GameMenus : MonoBehaviour
             this.GameOverMenu.SetActive(true);
         }
     }
+    public void NextLevel(bool _NextLevel)
+    {
+        if (_NextLevel)
+        {
+            if (SceneManager.GetActiveScene().buildIndex <= 2)
+            {
+                LevelCompletedMenu.SetActive(true);
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+                GameWinMenu.SetActive(true);
+                bGameWin = true;
+            }
+        }
+    }
+
     public void Retry()
     {
-        this.GameOverMenu.SetActive(false);
-        //GameSingleton.Instance.ball.ResetGame();
-        
-        int index = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(index);
+        if (bGameWin)
+        {
+            this.GameWinMenu.SetActive(false);
+            SceneManager.LoadScene(1);
+        }
+        else
+        {
+            this.GameOverMenu.SetActive(false);
+            int index = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(index);
+        }
     }
 
     public void Quit()
@@ -45,9 +72,7 @@ public class GameMenus : MonoBehaviour
 
     public void Loading()
     {
-        if (SceneManager.GetActiveScene().buildIndex < 3)
-            asyncOperation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
-       
+        asyncOperation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void LoadingPrevious()
@@ -58,16 +83,6 @@ public class GameMenus : MonoBehaviour
 
     public void Update()
     {
-        if (UnityEngine.Input.GetKeyDown(KeyCode.N))
-        {
-            Loading();
-        }
-
-        if (UnityEngine.Input.GetKeyDown(KeyCode.P))
-        {
-            LoadingPrevious();
-        }
-
         if (asyncOperation != null)
         {
             LoadingImage.SetActive(!asyncOperation.isDone);
@@ -87,5 +102,7 @@ public class GameMenus : MonoBehaviour
     private void OnDisable()
     {
         Ball.ballDied -= PlayerDied;
+        Ball.GameWin -= NextLevel;
+
     }
 }

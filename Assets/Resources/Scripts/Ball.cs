@@ -19,6 +19,7 @@ public class Ball : MonoBehaviour
 
     public float splashDistance = 0.1f;
     public static event Action<bool> ballDied;
+    public static event Action<bool> GameWin;
     public bool hasBounced = false;
 
     private void Awake()
@@ -44,8 +45,8 @@ public class Ball : MonoBehaviour
         if (bAlive && !hasBounced)
         {
             GameSingleton.Instance.AudioManager.PlaySFX("BallBounce");
-            Vector3 splashPosition = collision.contacts[0].point + collision.contacts[0].normal.normalized *splashDistance;
-            splashPosition.y -= 0.09f;
+            Vector3 splashPosition = collision.contacts[0].point + collision.contacts[0].normal.normalized * splashDistance;
+            splashPosition.y -= 0.02f;
             GameObject.Instantiate(SplashPrefab, splashPosition, Quaternion.LookRotation(collision.contacts[0].normal), SplashParent);
 
             if (collision.gameObject.tag == "Gameover")
@@ -55,6 +56,12 @@ public class Ball : MonoBehaviour
                 bAddForce = false;
                 ballDied?.Invoke(bAlive);
             }
+            if (collision.gameObject.tag == "GameWin")
+            {
+                GameWin?.Invoke(true);
+                GameSingleton.Instance.Input.bInput = false;
+            }
+
             if (bAddForce)
             {
                 this.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 1f, 0f) * Time.deltaTime * force);

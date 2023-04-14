@@ -7,6 +7,7 @@ TagManager:
   - helix_piece
   - Score
   - Gameover
+  - GameWin
   layers:
   - Default
   - TransparentFX
