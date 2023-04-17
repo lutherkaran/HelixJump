@@ -14,6 +14,7 @@ public class GameMenus : MonoBehaviour
     public GameObject LevelCompletedMenu;
     public GameObject GameWinMenu;
     public Text ScoreText;
+    public Text HighScoreText;
 
     public Slider ProgressBar;
     public Text LoadingText;

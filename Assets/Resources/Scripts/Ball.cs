@@ -12,7 +12,10 @@ public class Ball : MonoBehaviour
     private float force = 12000;
     bool bAddForce = false;
     GameObject SplashPrefab;
+
     int score;
+    int highScore;
+
     public Vector3 initialPosition;
     public Transform SplashParent;
     public bool bAlive = false;
@@ -31,6 +34,7 @@ public class Ball : MonoBehaviour
         initialPosition = transform.position;
         ResetGame();
         GameSingleton.Instance.AudioManager.ThemeMusic("ThemeMusic");
+        GameSingleton.Instance.GameMenus.HighScoreText.text = "High Score: " + PlayerPrefs.GetInt("HighScore");
     }
 
     public void ResetGame()
@@ -77,6 +81,11 @@ public class Ball : MonoBehaviour
         if (other.gameObject.tag == "Score")
         {
             score++;
+            highScore = PlayerPrefs.GetInt("HighScore");
+            if (score > highScore)
+            {
+                PlayerPrefs.SetInt("HighScore", score);
+            }
             GameSingleton.Instance.GameMenus.ScoreText.text = "Score: " + score;
         }
     }
