@@ -49,8 +49,8 @@ public class Ball : MonoBehaviour
         if (bAlive && !hasBounced)
         {
             GameSingleton.Instance.AudioManager.PlaySFX("BallBounce");
-            Vector3 splashPosition = collision.contacts[0].point + collision.contacts[0].normal.normalized * splashDistance;
-            splashPosition.y -= 0.02f;
+            Vector3 splashPosition = collision.contacts[0].point;//collision.contacts[0].point + collision.contacts[0].normal.normalized * splashDistance;
+            splashPosition.y += 0.035f;
             GameObject.Instantiate(SplashPrefab, splashPosition, Quaternion.LookRotation(collision.contacts[0].normal), SplashParent);
 
             if (collision.gameObject.tag == "Gameover")
